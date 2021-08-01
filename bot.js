@@ -6,16 +6,12 @@ require("dotenv").config();
 
 // Bot Settings
 const token = process.env.TOKEN;
-console.log(token)
-// 
-
 const prefix = "-";
 
 // Data
 
 let global_data = {};
 let server_data = {};
-
 
 // Floats
 
