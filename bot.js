@@ -2,9 +2,12 @@
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
+require("dotenv").config();
 
 // Bot Settings
-const token = "ODU4NDY0NDQ2OTA4OTg5NTAw.YNehUQ.iDx-9CcCF4rUOPFa2w-QGtFbms4";
+const token = process.env.TOKEN;
+console.log(token)
+// 
 
 const prefix = "-";
 
